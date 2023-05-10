@@ -7,7 +7,7 @@ from fcntl import ioctl
 import select
 import threading
 from can2RNET import *
-debug = False
+debug = True
 
 host = '' #server='192.168.10.55'  client = ''
 port = 13337
